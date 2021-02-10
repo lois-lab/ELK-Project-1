@@ -1,0 +1,13 @@
+grep -E '05:00:00.*AM' 0310* | awk '{print $1,$2,$5,$6}' >> Dealers_working_during_losses
+grep -E '08:00:00.*AM' 0310* | awk '{print $1,$2,$5,$6}' >> Dealers_working_during_losses
+grep -E '02:00:00.*PM' 0310* | awk '{print $1,$2,$5,$6}' >> Dealers_working_during_losses
+grep -E '08:00:00.*PM' 0310* | awk '{print $1,$2,$5,$6}' >> Dealers_working_during_losses
+grep -E '11:00:00.*PM' 0310* | awk '{print $1,$2,$5,$6}' >> Dealers_working_during_losses
+grep -E '05:00:00.*AM' 0312* | awk '{print $1,$2,$5,$6}' >> Dealers_working_during_losses
+grep -E '08:00:00.*AM' 0312* | awk '{print $1,$2,$5,$6}' >> Dealers_working_during_losses
+grep -E '02:00:00.*PM' 0312* | awk '{print $1,$2,$5,$6}' >> Dealers_working_during_losses
+grep -E '08:00:00.*PM' 0312* | awk '{print $1,$2,$5,$6}' >> Dealers_working_during_losses
+grep -E '11:00:00.*PM' 0312* | awk '{print $1,$2,$5,$6}' >> Dealers_working_during_losses
+grep -E '05:00:00.*AM' 0315* | awk '{print $1,$2,$5,$6}' >> Dealers_working_during_losses
+grep -E '08:00:00.*AM' 0315* | awk '{print $1,$2,$5,$6}' >> Dealers_working_during_losses
+grep -E '02:00:00.*PM' 0315* | awk '{print $1,$2,$5,$6}' >> Dealers_working_during_losses
